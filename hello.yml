@@ -23,7 +23,7 @@ pipelines:
         type: MvnBuild
         configuration:
           sourceLocation: .
-          mvnCommand: clean install -ntp
+          mvnCommand: clean -ntp
           configFileLocation: .
           configFileName: pom.xml
           inputResources:
