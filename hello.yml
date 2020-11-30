@@ -6,7 +6,7 @@ resources:
       path: sangangu/helloworld
       branches:
         include: master
-  - name: myBuildInfos-hello
+  - name: myBuildInfos_hello
     type: BuildInfo
     configuration:
       sourceArtifactory: My_Own
