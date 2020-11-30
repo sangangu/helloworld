@@ -13,13 +13,13 @@ resources:
       buildName: SampleApp
       buildNumber: 1          
 pipelines:
-  - name: Maven_application
+  - name: Maven_application_hello
     configuration:
       environmentVariables:
         readOnly:
-          JFROG_CLI_BUILD_NAME: Maven_Build
+          JFROG_CLI_BUILD_NAME: Maven_Build_hello
     steps:
-      - name: Mvn_Build
+      - name: Mvn_Build_hello
         type: MvnBuild
         configuration:
           sourceLocation: .
