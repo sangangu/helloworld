@@ -34,9 +34,9 @@ pipelines:
             type: image
             image:
               auto:
-                language: maven
+                language: java
                 versions:
-                  - "3.4.5"
+                  - "11"
         execution:
           onStart:
             - javac -version
